@@ -30,6 +30,7 @@
     "@commitlint/cli": "^19",
     "@commitlint/config-conventional": "^19",
     "@eslint/eslintrc": "^3",
+    "@jfalcon/ultra-deps": "github:jfalcon/ultra-deps",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
