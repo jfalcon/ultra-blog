@@ -20,7 +20,7 @@
     "*.{js,jsx,ts,tsx}": "eslint --cache --fix --cache-location ./node_modules/.cache/.eslintcache"
   },
   "dependencies": {
-    "clsx": "^2.1.1",
+    "@jfalcon/ultra-deps": "github:jfalcon/ultra-deps",
     "next": "15.3.2",
     "next-intl": "^4.1.0",
     "react": "^19.0.0",
@@ -30,7 +30,6 @@
     "@commitlint/cli": "^19",
     "@commitlint/config-conventional": "^19",
     "@eslint/eslintrc": "^3",
-    "@jfalcon/ultra-deps": "github:jfalcon/ultra-deps",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
