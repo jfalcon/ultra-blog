@@ -9,6 +9,13 @@ const compat = new FlatCompat({
 const eslintConfig = [
   ...compat.config({
     extends: ['next/core-web-vitals', 'next/typescript'],
+    ignorePatterns: [
+      'build/',
+      'coverage/',
+      'dist/',
+      '.next/',
+      'node_modules/',
+    ],
     rules: {
       'no-alert': 'error',
       'no-console': 'warn',
