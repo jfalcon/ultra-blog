@@ -16,6 +16,7 @@ approximately. It can be shimmed or polyfilled to support older browsers if nece
 * Dark and Light Modes
 * EditorConfig Support
 * Gated Commits (overridden with --no-verify)
+* HOC Example with Reflection
 * Internationalization (i18n)
 * Lint Config Overrides
 * Next.js App Routing
