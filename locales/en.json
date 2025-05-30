@@ -1,0 +1,13 @@
+{
+  "ErrorPage": {
+    "home": "Back to home",
+    "title": "Oops, something went wrong!",
+    "try": "Try again"
+  },
+  "Header": {
+    "title": "Hello World"
+  },
+  "Footer": {
+    "copyright": "Copyright"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "version": "0.2",
+  "allowCompoundWords": true,
+  "enabledLanguageIds": [
+    "asciidoc",
+    "c",
+    "cpp",
+    "git-commit",
+    "javascript",
+    "json",
+    "jsonc",
+    "markdown",
+    "plaintext",
+    "shellscript",
+    "text",
+    "typescript",
+    "toml",
+    "yaml",
+    "yml"
+  ],
+  "dictionaries": [
+    "corp-terms",
+    "fonts",
+    "spanish"
+  ],
+  "language": "en",
+  "ignorePaths": [
+    "**/{,.}bin/",
+    "**/{,.}build/",
+    "**/{,.}cache/",
+    "**/{,.}compiled/",
+    "**/{,.}dist/",
+    "**/.git/",
+    "**/.hooks/",
+    "**/.idea/",
+    "**/.next/",
+    "**/.npm/",
+    "**/.out/",
+    "**/.svn/",
+    "**/.vs/",
+    "**/.vscode/",
+    "**/node_modules/",
+    "**/*.code-workspace",
+    "**/*.sublime-project",
+    "**/*.sublime-workspace"
+  ],
+  "ignoreRegExpList": [
+    "/^.*@import\\s*\\(.*\\).*$/gmi",
+    "/\\b[0-9A-Z\\/\\-_]+\\b/gm"
+  ],
+  "ignoreWords": [],
+  "words": [
+    "Vercel"
+  ]
+}

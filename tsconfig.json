@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "allowJs": true,                          // allow JavaScript files to be compiled
+    "esModuleInterop": true,                  // import non-ES modules as default imports
+    "incremental": true,                      // only build modified files when compiling
+    "isolatedModules": true,                  // disallow features that require cross-file awareness
+    "jsx": "preserve",                        // emit files with JSX unchanged
+    "lib": ["dom", "dom.iterable", "esnext"], // explicitly set default type definitions
+    "module": "esnext",                       // module system to output (CommonJS, ESNext, etc.)
+		"moduleDetection": "force",               // treat files as modules even without import/export
+    "moduleResolution": "bundler",            // do not require extension on imported relative paths
+    "noEmit": true,                           // do not emit any output (can set 'incremental')
+    "paths": { "@/*": ["./*"] },              // relative to baseUrl
+    "plugins": [
+      { "name": "next" }
+    ],
+    "resolveJsonModule": true,                // allows importing modules with a '.json' extension
+    "skipLibCheck": true,                     // only check used library code
+    "strict": true,                           // strict type checking for null, this, etc.
+    "target": "ES2017"                        // the ECMAScript version to output
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts", "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "public"
+  ]
+}

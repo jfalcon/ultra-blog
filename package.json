@@ -1,0 +1,45 @@
+{
+  "version": "0.1.0",
+  "name": "dd-next",
+  "engineStrict": true,
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev --turbo",
+    "lint": "next lint",
+    "prepare": "husky",
+    "start": "next start",
+    "test": "exit 0"
+  },
+  "engines": {
+    "node": ">= 22.15.0",
+    "npm": ">= 10.9.2"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": "eslint --cache --fix --cache-location ./node_modules/.cache/.eslintcache"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "next": "15.3.2",
+    "next-intl": "^4.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19",
+    "@commitlint/config-conventional": "^19",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15",
+    "husky": "^9",
+    "lint-staged": "^16",
+    "tailwindcss": "^4",
+    "tsx": "^4",
+    "typescript": "^5"
+  }
+}

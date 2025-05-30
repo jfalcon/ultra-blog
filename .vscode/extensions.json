@@ -1,0 +1,13 @@
+{
+	"recommendations": [
+    "bierner.github-markdown-preview",
+    "bradlc.vscode-tailwindcss",
+    "davidanson.vscode-markdownlint",
+    "dbaeumer.vscode-eslint",
+    "donjayamanne.githistory",
+    "eamodio.gitlens",
+    "editorconfig.editorconfig",
+    "streetsidesoftware.code-spell-checker"
+  ],
+	"unwantedRecommendations": []
+}
