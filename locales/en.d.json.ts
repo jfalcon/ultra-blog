@@ -7,6 +7,9 @@ declare const messages: {
     'title': 'Oops, something went wrong!',
     'try': 'Try again'
   },
+  'Manifest': {
+    'name': 'Ultra Mobile Blog'
+  },
   'Header': {
     'title': 'Hello World'
   },

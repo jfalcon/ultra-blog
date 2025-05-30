@@ -22,10 +22,10 @@ export const metadata: Metadata = {
   title: 'Ultra Mobile Home',
 };
 
-export default async function LocaleLayout({children, params}: Readonly<{
+export default async function LocaleLayout({children, params}: {
   children: React.ReactNode;
-  params: { locale: string }
-}>) {
+  params: Promise<{ locale: string }>;
+}) {
   const {locale} = await params;
   const messages = await getMessages();
 
